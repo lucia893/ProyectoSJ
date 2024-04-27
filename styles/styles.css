@@ -1,7 +1,7 @@
 /* Body styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background: url('fondoweb.jpg') center/cover no-repeat; /* Background image */
+    background: url('fondoweb2.png') center/cover no-repeat; /* Background image */
     background-color: rgba(0, 0, 0, 1); /* Semi-transparent overlay */
 }
 
@@ -14,9 +14,10 @@ p{
 }
 
 .inner-div-photo {
-    background-image: url('fondo2.jpg');
-    width: 300px; /* Set the width of the container */
-    height: 300px; /* Set the height of the container */
+    margin: 0 auto; 
+    background-image: url('grupal2.jpg');
+    width: 800px; /* Set the width of the container */
+    height: 400px; /* Set the height of the container */
     border: 10px solid #ccc; /* Add a border for visualization */
 }
 
