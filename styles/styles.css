@@ -1,12 +1,16 @@
 /* Body styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background: url('fondo2.jpg') center/cover no-repeat; /* Background image */
+    background: url('fondoweb.jpg') center/cover no-repeat; /* Background image */
     background-color: rgba(0, 0, 0, 1); /* Semi-transparent overlay */
 }
 
 p{
     line-height: 1.5;
+}
+
+#castores{
+    padding-bottom: 250px;
 }
 
 .inner-div-photo {
@@ -44,6 +48,22 @@ header {
     flex: 1; /* Each image container occupies equal space */
     max-width: calc(33.333% - 20px); /* Three images per row with padding between */
     margin: 0; /* Remove default margin */
+}
+ 
+#castoresTexto {
+    padding-top: 10px;
+    padding-left: 300px;
+}
+
+.castoresPhoto{
+    position: absolute;
+    left: 90px; /* Adjust as needed */
+    top: 220%;
+    width: 250px; /* Adjust the size of the logo */
+    height: 250px;
+    background-image: url('grupal.jpg'); /* Path to your logo image */
+    background-size: cover;
+    border-radius: 50%;
 }
 
 .logo {
