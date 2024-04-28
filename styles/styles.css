@@ -56,13 +56,18 @@ header {
     padding-left: 300px;
 }
 
+#hornerosTexto {
+    padding-top: 10 px;
+    padding-right: 300px;
+}
+
 .castoresPhoto{
     position: absolute;
-    left: 90px; /* Adjust as needed */
-    top: 220%;
+    left: 80px; /* Adjust as needed */
+    top: 280%;
     width: 250px; /* Adjust the size of the logo */
     height: 250px;
-    background-image: url('grupal.jpg'); /* Path to your logo image */
+    background-image: url('grupal3.jpg'); /* Path to your logo image */
     background-size: cover;
     border-radius: 50%;
 }
